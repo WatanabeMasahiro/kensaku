@@ -43,11 +43,11 @@
       </nav>
 
     <div class="row text-right mr-5 mt-1">
+
       <div class="col"></div>
       <div class="col"></div>
+      
       <div class="col">
-
-
         <div class="d-sm-none logout-withdrawal">
           <a id="logout-link" class="logout-links float-left" href="{{ route('logout') }}">
             {{ __('ログアウト') }}
@@ -57,7 +57,7 @@
               @csrf
           </form>
 
-          <a href="" class="float-right">退会</a>
+          <a href="/kensaku/taikai" class="float-right">退会</a>
         </div>
 
 
@@ -72,8 +72,8 @@
 
           <a href="/kensaku/taikai" class="ml-3">退会</a>
         </div>
-
       </div>
+
     </div>
 
           <!-- <p>{{$page_title}}</p> -->

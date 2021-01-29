@@ -380,7 +380,7 @@ $(function() {
       if (!confirm("ログアウトしますか？" )) {
         return false;
       }
-      document.getElementById('logout-form').submit();
+      $('#logout-form').submit();
     });
   }
 
@@ -402,7 +402,7 @@ $(function() {
     }
   }
 
-  
+
   function f_confsendIdnum_koushinSakuzyo() {
     $('#k_conf_send').on('click', function( event ) {
       var num_val = $('#k_conf_num').val();

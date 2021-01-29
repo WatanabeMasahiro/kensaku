@@ -159,4 +159,5 @@ class ContentTableController extends Controller
 
         return redirect('/login');
     }
+
 }

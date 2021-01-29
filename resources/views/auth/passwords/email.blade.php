@@ -68,4 +68,5 @@
     </div>
     <a href="/login" class="d-block text-center mt-4">＜＜&nbsp;ログイン画面に戻る&nbsp;＞＞</a>
 </div>
+
 @endsection

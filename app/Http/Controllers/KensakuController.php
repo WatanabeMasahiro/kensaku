@@ -28,6 +28,5 @@ class KensakuController extends Controller
             return redirect('kensaku.auth', ['message' => $msg]);
         }
     }
-    /*独自ログイン＝＞未実装状態 */
 
 }
